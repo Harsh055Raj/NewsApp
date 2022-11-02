@@ -1,0 +1,21 @@
+body{
+    background-image: url('World\ Map.svg');
+}
+
+.form-control {
+    color: white;
+}
+
+.form-group{
+    color: red;
+    font-weight: bolder;
+}
+
+.heading{
+    color: white;
+}
+
+#bary{
+    background-color: blue;
+    color: blue;
+}

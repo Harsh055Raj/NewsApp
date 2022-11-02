@@ -1,0 +1,22 @@
+<form action="{% url 'register'  %}" method="POST">
+    {% csrf_token %}
+    <label for="">Email:</label>
+    <br>
+    <input type="email" name="email">
+    <br>
+    <label for="">Username:</label>
+    <br>
+    <input type="text" name="username">
+    <br>
+    <label for="">Password:</label>
+    <br>
+    <input type="password" name="password">
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+<div class="">
+    {% for message in messages %}
+    <span> {{message}}</span>
+    {% endfor %}
+</div>
